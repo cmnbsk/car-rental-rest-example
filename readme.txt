@@ -1,10 +1,7 @@
-Autor: Tobiasz Kaciuczyk
+Application use MySQL database with default adres: localhost:3306, name: car-rental, user: root, without password.
 
-Aplikacja korzysta z bazy danych MySQL, domyślnie adres: localhost:3306, nazwa: car-rental, użytkownik: root, bez hasła.
+Example Api tests (Postman):
 
-Do testowania API wykorzystałem narzędzie Postman.
-
-Wstawienie przykładowych danych do bazy:
 I. Car
 1. POST: localhost:8080/cars
     {
@@ -54,5 +51,5 @@ III. Rent
         "endDate": "2012-12-13"
     }
 
-W celu wyświetlenia wszystkich wprowadzonych danych najlepiej wywołać metodę get na wypożyczeniach:
+The best way to display results:
 1. GET: localhost:8080/rents
